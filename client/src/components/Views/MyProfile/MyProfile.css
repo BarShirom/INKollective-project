@@ -1,0 +1,33 @@
+.uploadPhotoForm{
+    width: 300px;
+    height: 150x;
+    margin: 10px;
+    padding: 10px;
+    background-color: #16213E;
+    color: white;
+}
+
+.label{
+    font-size: large;
+}
+
+.subjectInput{
+    font-size: medium;
+    margin: 5px;
+}
+
+.imageInput{
+    font-size: medium;
+    margin: 5px;
+}
+
+.contactInput{
+    font-size: medium;
+    margin: 5px;
+   
+}
+
+.submitBtn{
+    font-size: medium;
+    
+}

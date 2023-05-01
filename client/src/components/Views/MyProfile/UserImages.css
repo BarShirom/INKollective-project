@@ -1,0 +1,4 @@
+.userImages{
+    display: flex;
+    flex-wrap: wrap;
+}

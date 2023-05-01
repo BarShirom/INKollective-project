@@ -1,0 +1,14 @@
+.tattooCard{
+    width: 400px;
+    height: 430px;
+    margin: 10px;
+    text-align: center;
+    background-color: #16213E;
+    color: white;
+}
+
+.img{
+    width: 300px;
+    height: 250px;
+    cursor: pointer;
+}

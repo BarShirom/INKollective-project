@@ -1,0 +1,13 @@
+.imagePageContainer {
+    text-align: center;
+    margin: 10px;
+}
+
+.imgPage {
+    width: 800px;
+    height: 600px;
+}
+
+.imagePageBtn{
+    font-size: medium;
+}
