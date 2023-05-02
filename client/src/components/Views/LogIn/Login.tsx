@@ -23,7 +23,7 @@ const Login = () => {
       <form className="form" onSubmit={handleSubmit}>
         <label className="emailLabel">Please enter your email</label>
         <br />
-        <input
+        <input className="inputLogin"
           value={email}
           type="email"
           placeholder="email"
@@ -35,7 +35,7 @@ const Login = () => {
         <br />
         <label className="passwordLabel">Please enter your password</label>
         <br />
-        <input
+        <input className="inputLogin" 
           value={password}
           type="password"
           placeholder="password"
@@ -45,13 +45,13 @@ const Login = () => {
           }}
         />{" "}
         <br />
-        <button type="submit">Login</button>
-        <button onClick={() => navigate("/register")} type="submit">
+        <button className="btnLogin" type="submit">Login</button>
+        <button className="btnLogin" onClick={() => navigate("/register")} type="submit">
           Register
         </button>
       </form>
       <p>OR</p>
-      <button onClick={() => navigate("/home")} type="submit">
+      <button className="btnLogin" onClick={() => navigate("/home")} type="submit">
           Enter as a guest
         </button>
     </div>

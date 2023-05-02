@@ -1,5 +1,5 @@
 .uploadPhotoForm{
-    width: 300px;
+    width: 220px;
     height: 150x;
     margin: 10px;
     padding: 10px;
@@ -9,6 +9,7 @@
 
 .label{
     font-size: large;
+    margin-left: 40px;
 }
 
 .subjectInput{
@@ -29,5 +30,6 @@
 
 .submitBtn{
     font-size: medium;
+    margin-left: 65px;
     
 }

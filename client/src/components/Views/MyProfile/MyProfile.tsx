@@ -63,7 +63,7 @@ const MyProfile = () => {
             setContact(ev.target.value);
           }}
         ></input>
-        
+        <br />
         <button className="submitBtn" type="submit">Submit</button>
       </form>
       <UserImages />

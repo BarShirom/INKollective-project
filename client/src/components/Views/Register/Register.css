@@ -5,6 +5,25 @@
     padding: 50px;
 }
 
+.labelRegister{
+    font-size: large;
+}
+
+.inputRegister{
+    margin: 10px;
+    font-size: large;
+    text-align: center;
+}
+
+.registerBtn{
+    padding: 7px 10px;
+    color: #16213E;
+    margin: 8px 0;
+    cursor: pointer;
+    width: 6.25%;
+    font-size: medium;
+}
+
 
 
 

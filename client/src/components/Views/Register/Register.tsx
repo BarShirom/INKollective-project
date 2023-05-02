@@ -24,9 +24,9 @@ const Register = () =>{
         <div className="formContainer">
             <h1>Welcome to INKollective</h1>
       <form className="form" onSubmit={handleSubmit}>
-      <label>Please enter your user name</label>
+      <label className="labelRegister">Please enter your user name</label>
         <br />
-        <input
+        <input className="inputRegister"
           value={userName}
           type="string"
           placeholder="User name"
@@ -35,9 +35,9 @@ const Register = () =>{
             setUserName(ev.target.value)
           }}
         /> <br />
-        <label>Please enter your email</label>
+        <label className="labelRegister">Please enter your email</label>
         <br />
-        <input
+        <input className="inputRegister"
           value={email}
           type="email"
           placeholder="Email"
@@ -46,9 +46,9 @@ const Register = () =>{
             setEmail(ev.target.value)
           }}
         /> <br />
-        <label>Please enter your password</label>
+        <label className="labelRegister">Please enter your password</label>
         <br />
-        <input
+        <input className="inputRegister"
           value={password}
           type="password"
           placeholder="Password"
@@ -57,9 +57,9 @@ const Register = () =>{
             setPassword(ev.target.value)
           }}
         /> <br />
-        <label>Please repeat your password</label>
+        <label className="labelRegister">Please repeat your password</label>
         <br />
-        <input
+        <input className="inputRegister"
           value={repeatPassword}
           type="password"
           placeholder="Password"
@@ -68,7 +68,7 @@ const Register = () =>{
             setRepeatPassword(ev.target.value)
           }}
         /> <br />
-        <button type="submit">Register</button>
+        <button className="registerBtn" type="submit">Register</button>
       </form>
         </div>
     )
