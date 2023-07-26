@@ -1,6 +1,5 @@
 # INKollective-project
-This is my first full stack project. I create a platform for sharing tattoos.
+Full Stack project in TypeScript implemented with tools: React.js, Redux, Axios, Node.js, Express and MongooDB.
+I created a platform for sharing tattoos.
 
-The tools used in this project: <br/>
-Client - React, React-router-dom, Redux, Redux-thunk and Axios.<br/>
-Server - Node, Express, MongooDB-Atlas and Mongoose.
+
